@@ -35,6 +35,7 @@ header{
     color: #ffffff;
     display: none;
     font-size: 50px;
+    margin-right: 10px;
     
 }
 .navbar nav ul{
@@ -148,7 +149,7 @@ header{
       padding: 20px 20px;
   }
   .head i{
-    margin-right: 10px;
+    /* margin-right: 10px; */
     font-size: 100px;
     font-weight: 600;
     background: -webkit-linear-gradient(45deg, #fe8d79, #ff5276);
@@ -424,6 +425,11 @@ header{
     font-size: 30px;
     
 }
+.gitr button a{
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+}
 .gitr{
     width: 50%;
     display: flex;
@@ -476,7 +482,7 @@ marquee{
     justify-content: center;
     float: right;
     right: 0;
-    z-index: 2;
+    /* z-index: 2; */
 }
 .rn ul{
     list-style: none;
