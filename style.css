@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #1C252E;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth; 
+    font-family: 'Gideon Roman', cursive;   
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 /* Header */
-
+.gap{
+    height: 100px;
+    width: auto;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -29,7 +33,8 @@ header{
 }
 .navbar i{
     color: #ffffff;
-    font-size: 0px;
+    display: none;
+    font-size: 50px;
     
 }
 .navbar nav ul{
@@ -84,6 +89,11 @@ header{
     -webkit-text-fill-color: transparent;
     text-shadow: 3px 3px 6px #ff5276;
 }
+.content button a{
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+}
 .content button{
     padding: 10px 20px;
     border-radius: 20px;
@@ -106,6 +116,11 @@ header{
     width: auto;
     
 }
+.pointrl button a{
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+}
 @media only screen and (max-width: 1200px) {
     .home{
         flex-direction: column;
@@ -121,7 +136,7 @@ header{
         display: none;
     }
     .navbar i{
-        font-size: 50px;
+        display: flex;
     }
   }
   
@@ -342,6 +357,16 @@ header{
        text-shadow: 3px 3px 6px #ff5276;
        margin-top: 10px;
 }
+.colright button a{
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+}
+.copyright{
+    color: rgba(255, 255, 255,0.5);
+    text-align: center;
+    letter-spacing: 1px;
+}
 .colright button{
     padding: 10px 20px;
     border-radius: 20px;
@@ -363,6 +388,12 @@ header{
     .colright{
         margin-top: 20px;
         width: 100%;
+    }
+    .head h1{
+        font-size: 60px;
+    }
+    .head i{
+        font-size: 70px;
     }
 }
 @media only screen and (max-width: 738px){
@@ -439,13 +470,13 @@ marquee{
 .rn{
     position: fixed;
     top: 0;
-    /* margin-top: 500px; */
+    margin-top: 20px;
     display: none;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     float: right;
     right: 0;
-    /* z-index: 2; */
+    z-index: 2;
 }
 .rn ul{
     list-style: none;
@@ -455,7 +486,7 @@ marquee{
     display: flex;
     flex-direction: column;
     /* border-bottom: 2px solid blue; */
-}
+} 
 .rn ul li a{
     font-size: 20px;
     text-decoration: none;
@@ -467,9 +498,9 @@ marquee{
     text-shadow: 1px 1px 1px #000, 
     3px 3px 5px blue;
     transition: 1s;
-}
-.rn ul li a:hover{
+} 
+ .rn ul li a:hover{
     color: #36A5F0;
     text-shadow: 1px 1px 1px #000, 
     3px 3px 10px blue;
-}
+} 
